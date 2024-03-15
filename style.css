@@ -1,0 +1,286 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1700px;
+  font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+}
+
+.nav-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav a {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  font-family: "Raleway", sans-serif;
+}
+
+.div-container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 7rem;
+  gap: 3rem;
+}
+
+.allfile {
+  flex-basis: 50%;
+  line-height: 1, 5;
+}
+
+.file-img {
+  flex-basis: 50%;
+}
+
+.mail-container {
+  margin-top: 1.5rem;
+}
+
+.email {
+  padding: 15px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+button {
+  padding: 15px;
+  background-color: cornflowerblue;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: aquamarine;
+  color: black;
+}
+
+.first-sec {
+  background-image: url(./images/bg-curve-desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.first-sec {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 8rem;
+  padding-top: 7rem;
+  gap: 4rem;
+}
+
+.divSec {
+  flex-basis: 50%;
+}
+
+.secImage {
+  flex-basis: 50%;
+}
+
+.ssf {
+  margin-bottom: 1rem;
+}
+
+.seehf {
+  color: aquamarine;
+  text-align: center;
+  border-bottom: 1px solid #409686;
+  text-decoration: none;
+  padding: 0.3rem;
+  margin: auto;
+}
+
+.img-con {
+  display: flex;
+  margin-top: 15px;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.profile-picture {
+  border-radius: 50%;
+}
+
+.name :first-child {
+  font-size: small;
+}
+
+.name {
+  margin-top: 5px;
+}
+
+.container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 10px lightgrey;
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 300px;
+}
+
+.ffoot {
+  background-color: mediumslateblue;
+  margin-top: 4rem;
+  padding: 6rem 2rem;
+}
+
+.fdiv {
+  display: flex;
+  gap: 3rem;
+}
+
+.getAccess {
+  color: white;
+}
+
+.mailDiv {
+  display: grid;
+}
+
+#maildiv {
+  margin-bottom: 1rem;
+  width: 350px;
+}
+
+#getStarted {
+  font-size: small;
+  width: 190px;
+}
+
+.secondfooter {
+  background-color: rgb(7, 7, 40);
+  color: white;
+  padding: 3rem;
+}
+
+.contact {
+  display: flex;
+  gap: 1rem;
+}
+
+.contactMail {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.footerList {
+  display: flex;
+  justify-content: space-between;
+}
+article {
+  padding: 2rem;
+}
+section {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+footer {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  padding-bottom: 10px;
+}
+
+.fa-brands {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+@media (max-width: 650px) and (max-width: 700px) {
+  .div-container {
+    display: grid;
+  }
+
+  .allfile h2 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .mail-container {
+    display: grid;
+    margin-left: 1.5rem;
+  }
+
+  .email {
+    padding: 15px;
+    margin-bottom: 10px;
+    width: 90%;
+  }
+
+  button {
+    padding: 15px;
+    background-color: cornflowerblue;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    width: 90%;
+  }
+
+  .first-sec {
+    display: grid;
+  }
+
+  .divSec h2 {
+    text-align: center;
+  }
+
+  .seehf {
+    margin-left: 11rem;
+  }
+
+  .container {
+    margin: auto;
+    margin-top: 4rem;
+  }
+
+  .fdiv {
+    display: grid;
+    text-align: center;
+  }
+
+  #maildiv {
+    margin-bottom: 1rem;
+    width: 90%;
+  }
+
+  #getStarted {
+    font-size: small;
+    width: 90%;
+  }
+
+  .footerList {
+    display: grid;
+    gap: 2rem;
+    padding: 1rem;
+  }
+
+  #div-container {
+    display: flex;
+    margin-left: 10rem;
+  }
+
+  .fa-brands {
+    padding: 15px;
+  }
+}
